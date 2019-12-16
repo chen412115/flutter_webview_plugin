@@ -57,7 +57,7 @@ dependencies {
 
 	testImplementation 'junit:junit:4.12'
     testImplementation 'androidx.test:core:1.2.0'
-
+    api 'com.tencent.tbs.tbssdk:sdk:43697'
 //    When running unit tests for project, gradle needs to have flutter.jar in path
 //    since there's no FLUTTER_HOME variable, we need to pass flutterPath from console with command:
 //    ./gradlew test -DflutterPath=/Users/rafal.wachol/Utils/flutter
